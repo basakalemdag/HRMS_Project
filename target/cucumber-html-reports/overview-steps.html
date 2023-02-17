@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>ProjectPracticeG12</td>
+        <td>1</td>
+      <td>03 Jan 2023, 19:23</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_can_save_changes_by_clicking_on_save_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1524405300">1.524</td>
+              <td class="duration" data-value="1524405300">1.524</td>
+              <td class="duration" data-value="1524405300">1.524</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_click_on_add_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="53822200">0.053</td>
+              <td class="duration" data-value="53822200">0.053</td>
+              <td class="duration" data-value="53822200">0.053</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_clicks_on_any_enlisted_employee()</td>
+              <td>1</td>
+              <td class="duration" data-value="2428876400">2.428</td>
+              <td class="duration" data-value="2428876400">2.428</td>
+              <td class="duration" data-value="2428876400">2.428</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_clicks_on_dependents_option()</td>
+              <td>1</td>
+              <td class="duration" data-value="1234487200">1.234</td>
+              <td class="duration" data-value="1234487200">1.234</td>
+              <td class="duration" data-value="1234487200">1.234</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_is_able_to_enter_data_into_the_name_field()</td>
+              <td>1</td>
+              <td class="duration" data-value="117164500">0.117</td>
+              <td class="duration" data-value="117164500">0.117</td>
+              <td class="duration" data-value="117164500">0.117</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_is_able_to_see_the_employee_list_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="52858400">0.052</td>
+              <td class="duration" data-value="52858400">0.052</td>
+              <td class="duration" data-value="52858400">0.052</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_is_able_to_select_an_option_from_relationship_dropdown()</td>
+              <td>1</td>
+              <td class="duration" data-value="101731000">0.101</td>
+              <td class="duration" data-value="101731000">0.101</td>
+              <td class="duration" data-value="101731000">0.101</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_is_able_to_select_day_month_and_year_from_the_date_of_birth_field()</td>
+              <td>1</td>
+              <td class="duration" data-value="709100900">0.709</td>
+              <td class="duration" data-value="709100900">0.709</td>
+              <td class="duration" data-value="709100900">0.709</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_successfully_navigates_into_assign_dependents_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="82716000">0.082</td>
+              <td class="duration" data-value="82716000">0.082</td>
+              <td class="duration" data-value="82716000">0.082</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeDependantsSteps.user_successfully_navigates_to_the_empoloyee_personal_details_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="85558100">0.085</td>
+              <td class="duration" data-value="85558100">0.085</td>
+              <td class="duration" data-value="85558100">0.085</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeSteps.employee_added_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="47678200">0.047</td>
+              <td class="duration" data-value="47678200">0.047</td>
+              <td class="duration" data-value="47678200">0.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeSteps.user_clicks_on_add_employee_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1257083500">1.257</td>
+              <td class="duration" data-value="1257083500">1.257</td>
+              <td class="duration" data-value="1257083500">1.257</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeSteps.user_clicks_on_pim_option()</td>
+              <td>12</td>
+              <td class="duration" data-value="3295465541">3.295</td>
+              <td class="duration" data-value="3295465541">4.471</td>
+              <td class="duration" data-value="39545586500">39.545</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeSteps.user_clicks_on_save_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2345521500">2.345</td>
+              <td class="duration" data-value="2345521500">2.345</td>
+              <td class="duration" data-value="2345521500">2.345</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddEmployeeSteps.user_enter_and_and(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="325807500">0.325</td>
+              <td class="duration" data-value="325807500">0.325</td>
+              <td class="duration" data-value="325807500">0.325</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_and_select_competency()</td>
+              <td>1</td>
+              <td class="duration" data-value="75796200">0.075</td>
+              <td class="duration" data-value="75796200">0.075</td>
+              <td class="duration" data-value="75796200">0.075</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_and_select_fluency()</td>
+              <td>1</td>
+              <td class="duration" data-value="80783700">0.080</td>
+              <td class="duration" data-value="80783700">0.080</td>
+              <td class="duration" data-value="80783700">0.080</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_and_select_language()</td>
+              <td>1</td>
+              <td class="duration" data-value="81785100">0.081</td>
+              <td class="duration" data-value="81785100">0.081</td>
+              <td class="duration" data-value="81785100">0.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_on_language_save_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="3520044800">3.520</td>
+              <td class="duration" data-value="3520044800">3.520</td>
+              <td class="duration" data-value="3520044800">3.520</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_on_languages_add_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="78789100">0.078</td>
+              <td class="duration" data-value="78789100">0.078</td>
+              <td class="duration" data-value="78789100">0.078</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_clicks_on_qualification_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2018384300">2.018</td>
+              <td class="duration" data-value="2018384300">2.018</td>
+              <td class="duration" data-value="2018384300">2.018</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_enters_comments()</td>
+              <td>1</td>
+              <td class="duration" data-value="155581000">0.155</td>
+              <td class="duration" data-value="155581000">0.155</td>
+              <td class="duration" data-value="155581000">0.155</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLanguageSteps.user_sees_the_details_of_language_added()</td>
+              <td>1</td>
+              <td class="duration" data-value="43869800">0.043</td>
+              <td class="duration" data-value="43869800">0.043</td>
+              <td class="duration" data-value="43869800">0.043</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_and_selects_expiry_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="599463300">0.599</td>
+              <td class="duration" data-value="599463300">0.599</td>
+              <td class="duration" data-value="599463300">0.599</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_and_selects_issued_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="464180800">0.464</td>
+              <td class="duration" data-value="464180800">0.464</td>
+              <td class="duration" data-value="464180800">0.464</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_and_selects_license_type()</td>
+              <td>1</td>
+              <td class="duration" data-value="80784400">0.080</td>
+              <td class="duration" data-value="80784400">0.080</td>
+              <td class="duration" data-value="80784400">0.080</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_on_License_save_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="2606281100">2.606</td>
+              <td class="duration" data-value="2606281100">2.606</td>
+              <td class="duration" data-value="2606281100">2.606</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_on_add_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="104165000">0.104</td>
+              <td class="duration" data-value="104165000">0.104</td>
+              <td class="duration" data-value="104165000">0.104</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_on_qualifications_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1258431700">1.258</td>
+              <td class="duration" data-value="1258431700">1.258</td>
+              <td class="duration" data-value="1258431700">1.258</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_clicks_on_the_employee_s_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="2234979100">2.234</td>
+              <td class="duration" data-value="2234979100">2.234</td>
+              <td class="duration" data-value="2234979100">2.234</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_enters_license_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="114693300">0.114</td>
+              <td class="duration" data-value="114693300">0.114</td>
+              <td class="duration" data-value="114693300">0.114</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_enters_valid_id()</td>
+              <td>1</td>
+              <td class="duration" data-value="142930200">0.142</td>
+              <td class="duration" data-value="142930200">0.142</td>
+              <td class="duration" data-value="142930200">0.142</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_sees_employee_s_name_is_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="25928600">0.025</td>
+              <td class="duration" data-value="25928600">0.025</td>
+              <td class="duration" data-value="25928600">0.025</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddLicensesSteps.user_sees_the_personal_details_of_the_employee()</td>
+              <td>1</td>
+              <td class="duration" data-value="38756700">0.038</td>
+              <td class="duration" data-value="38756700">0.038</td>
+              <td class="duration" data-value="38756700">0.038</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_and_select_currency()</td>
+              <td>1</td>
+              <td class="duration" data-value="90757900">0.090</td>
+              <td class="duration" data-value="90757900">0.090</td>
+              <td class="duration" data-value="90757900">0.090</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_and_select_membership_type()</td>
+              <td>2</td>
+              <td class="duration" data-value="82983400">0.082</td>
+              <td class="duration" data-value="82983400">0.083</td>
+              <td class="duration" data-value="165966800">0.165</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_and_select_subscription_paid_by()</td>
+              <td>1</td>
+              <td class="duration" data-value="97695300">0.097</td>
+              <td class="duration" data-value="97695300">0.097</td>
+              <td class="duration" data-value="97695300">0.097</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_on_membership_add_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="97230600">0.097</td>
+              <td class="duration" data-value="97230600">0.104</td>
+              <td class="duration" data-value="194461200">0.194</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_on_membership_save_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="2177647100">2.177</td>
+              <td class="duration" data-value="2177647100">2.351</td>
+              <td class="duration" data-value="4355294200">4.355</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_on_memberships_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="1662264050">1.662</td>
+              <td class="duration" data-value="1662264050">1.675</td>
+              <td class="duration" data-value="3324528100">3.324</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_clicks_on_the_employee_name()</td>
+              <td>4</td>
+              <td class="duration" data-value="2427310225">2.427</td>
+              <td class="duration" data-value="2427310225">2.565</td>
+              <td class="duration" data-value="9709240900">9.709</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_enters_subscription_amount()</td>
+              <td>1</td>
+              <td class="duration" data-value="106778000">0.106</td>
+              <td class="duration" data-value="106778000">0.106</td>
+              <td class="duration" data-value="106778000">0.106</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_see_the_personal_details_of_the_employee()</td>
+              <td>3</td>
+              <td class="duration" data-value="84736300">0.084</td>
+              <td class="duration" data-value="84736300">0.093</td>
+              <td class="duration" data-value="254208900">0.254</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_sees_the_details_of_membership_added()</td>
+              <td>2</td>
+              <td class="duration" data-value="65315300">0.065</td>
+              <td class="duration" data-value="65315300">0.066</td>
+              <td class="duration" data-value="130630600">0.130</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_selects_commence_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="875354800">0.875</td>
+              <td class="duration" data-value="875354800">0.875</td>
+              <td class="duration" data-value="875354800">0.875</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddMembershipSteps.user_selects_renewal_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="1029006700">1.029</td>
+              <td class="duration" data-value="1029006700">1.029</td>
+              <td class="duration" data-value="1029006700">1.029</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill1Steps.user_click_on_admin_and_select_skill_from_qualifications()</td>
+              <td>1</td>
+              <td class="duration" data-value="5625256500">5.625</td>
+              <td class="duration" data-value="5625256500">5.625</td>
+              <td class="duration" data-value="5625256500">5.625</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill1Steps.user_clicks_on_add_and_enter_credentials(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="218158200">0.218</td>
+              <td class="duration" data-value="218158200">0.218</td>
+              <td class="duration" data-value="218158200">0.218</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill1Steps.user_should_be_able_to_add_new_skills()</td>
+              <td>1</td>
+              <td class="duration" data-value="91754600">0.091</td>
+              <td class="duration" data-value="91754600">0.091</td>
+              <td class="duration" data-value="91754600">0.091</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill2Steps.user_can_add_employee_s_skills()</td>
+              <td>1</td>
+              <td class="duration" data-value="2595234600">2.595</td>
+              <td class="duration" data-value="2595234600">2.595</td>
+              <td class="duration" data-value="2595234600">2.595</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill2Steps.user_click_on_searched_employee_and_select_qualifications()</td>
+              <td>1</td>
+              <td class="duration" data-value="4035061800">4.035</td>
+              <td class="duration" data-value="4035061800">4.035</td>
+              <td class="duration" data-value="4035061800">4.035</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill2Steps.user_clicks_on_pim_and_search_the_employee_from_employee_list()</td>
+              <td>1</td>
+              <td class="duration" data-value="8018431100">8.018</td>
+              <td class="duration" data-value="8018431100">8.018</td>
+              <td class="duration" data-value="8018431100">8.018</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.AddSkill2Steps.user_should_see_skills_dropdowns_experience_textbox_and_commment_box_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="192434300">0.192</td>
+              <td class="duration" data-value="192434300">0.192</td>
+              <td class="duration" data-value="192434300">0.192</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_clicks_on_displayed_information()</td>
+              <td>1</td>
+              <td class="duration" data-value="2167147700">2.167</td>
+              <td class="duration" data-value="2167147700">2.167</td>
+              <td class="duration" data-value="2167147700">2.167</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_clicks_on_edit_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="89824400">0.089</td>
+              <td class="duration" data-value="89824400">0.089</td>
+              <td class="duration" data-value="89824400">0.089</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_clicks_on_job()</td>
+              <td>2</td>
+              <td class="duration" data-value="2411646550">2.411</td>
+              <td class="duration" data-value="2411646550">2.940</td>
+              <td class="duration" data-value="4823293100">4.823</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_clicks_on_save_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="3294095900">3.294</td>
+              <td class="duration" data-value="3294095900">3.294</td>
+              <td class="duration" data-value="3294095900">3.294</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_picks_contract_end_date_from_calendar()</td>
+              <td>1</td>
+              <td class="duration" data-value="390266700">0.390</td>
+              <td class="duration" data-value="390266700">0.390</td>
+              <td class="duration" data-value="390266700">0.390</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_picks_contract_start_date_from_calendar()</td>
+              <td>1</td>
+              <td class="duration" data-value="382979400">0.382</td>
+              <td class="duration" data-value="382979400">0.382</td>
+              <td class="duration" data-value="382979400">0.382</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_picks_joined_date_from_calendar()</td>
+              <td>1</td>
+              <td class="duration" data-value="435841200">0.435</td>
+              <td class="duration" data-value="435841200">0.435</td>
+              <td class="duration" data-value="435841200">0.435</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_sees_employee_details()</td>
+              <td>2</td>
+              <td class="duration" data-value="69053300">0.069</td>
+              <td class="duration" data-value="69053300">0.071</td>
+              <td class="duration" data-value="138106600">0.138</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_selects_employment_status()</td>
+              <td>1</td>
+              <td class="duration" data-value="59627800">0.059</td>
+              <td class="duration" data-value="59627800">0.059</td>
+              <td class="duration" data-value="59627800">0.059</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_selects_job_category()</td>
+              <td>1</td>
+              <td class="duration" data-value="63693600">0.063</td>
+              <td class="duration" data-value="63693600">0.063</td>
+              <td class="duration" data-value="63693600">0.063</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_selects_job_title()</td>
+              <td>1</td>
+              <td class="duration" data-value="62024900">0.062</td>
+              <td class="duration" data-value="62024900">0.062</td>
+              <td class="duration" data-value="62024900">0.062</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_selects_job_unit()</td>
+              <td>1</td>
+              <td class="duration" data-value="58834800">0.058</td>
+              <td class="duration" data-value="58834800">0.058</td>
+              <td class="duration" data-value="58834800">0.058</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_selects_location()</td>
+              <td>1</td>
+              <td class="duration" data-value="59841000">0.059</td>
+              <td class="duration" data-value="59841000">0.059</td>
+              <td class="duration" data-value="59841000">0.059</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_successfully_updated_employee_s_current_job_details()</td>
+              <td>1</td>
+              <td class="duration" data-value="2006114000">2.006</td>
+              <td class="duration" data-value="2006114000">2.006</td>
+              <td class="duration" data-value="2006114000">2.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.CurrentJobDetailsSteps.user_uploads_file_up_to_1mb_for_contract_details()</td>
+              <td>1</td>
+              <td class="duration" data-value="2070129200">2.070</td>
+              <td class="duration" data-value="2070129200">2.070</td>
+              <td class="duration" data-value="2070129200">2.070</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.DirectorySteps.user_clicks_on_directory_option()</td>
+              <td>1</td>
+              <td class="duration" data-value="9222802400">9.222</td>
+              <td class="duration" data-value="9222802400">9.222</td>
+              <td class="duration" data-value="9222802400">9.222</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.DirectorySteps.user_see_number_of_employees_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="44911700">0.044</td>
+              <td class="duration" data-value="44911700">0.044</td>
+              <td class="duration" data-value="44911700">0.044</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_clicks_on_contact_details()</td>
+              <td>1</td>
+              <td class="duration" data-value="3174797100">3.174</td>
+              <td class="duration" data-value="3174797100">3.174</td>
+              <td class="duration" data-value="3174797100">3.174</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_clicks_on_edit_option()</td>
+              <td>1</td>
+              <td class="duration" data-value="137203100">0.137</td>
+              <td class="duration" data-value="137203100">0.137</td>
+              <td class="duration" data-value="137203100">0.137</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_clicks_on_save_button_and_changed_the_data_successfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="81781400">0.081</td>
+              <td class="duration" data-value="81781400">0.081</td>
+              <td class="duration" data-value="81781400">0.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_enters_employee_address1_and_address2()</td>
+              <td>1</td>
+              <td class="duration" data-value="254093000">0.254</td>
+              <td class="duration" data-value="254093000">0.254</td>
+              <td class="duration" data-value="254093000">0.254</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_enters_home_num_mobile_and_work_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="327124500">0.327</td>
+              <td class="duration" data-value="327124500">0.327</td>
+              <td class="duration" data-value="327124500">0.327</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.user_enters_work_email_and_personal_email()</td>
+              <td>1</td>
+              <td class="duration" data-value="280252500">0.280</td>
+              <td class="duration" data-value="280252500">0.280</td>
+              <td class="duration" data-value="280252500">0.280</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.EmployeeContactDetailsSteps.users_enters_city_state_zip_and_country()</td>
+              <td>1</td>
+              <td class="duration" data-value="424632700">0.424</td>
+              <td class="duration" data-value="424632700">0.424</td>
+              <td class="duration" data-value="424632700">0.424</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.Hooks.postCondition(io.cucumber.java.Scenario)</td>
+              <td>20</td>
+              <td class="duration" data-value="669422085">0.669</td>
+              <td class="duration" data-value="669422085">2.317</td>
+              <td class="duration" data-value="13388441700">13.388</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.Hooks.preCondition()</td>
+              <td>20</td>
+              <td class="duration" data-value="3940509610">3.940</td>
+              <td class="duration" data-value="3940509610">6.229</td>
+              <td class="duration" data-value="78810192200">1:18.810</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.LoginSteps.user_clicks_on_login_button()</td>
+              <td>16</td>
+              <td class="duration" data-value="2547175268">2.547</td>
+              <td class="duration" data-value="2547175268">4.085</td>
+              <td class="duration" data-value="40754804300">40.754</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.LoginSteps.user_enters_different_and_and_verify_the_for_it(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="703372350">0.703</td>
+              <td class="duration" data-value="703372350">1.187</td>
+              <td class="duration" data-value="2813489400">2.813</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.LoginSteps.user_enters_valid_username_and_valid_password()</td>
+              <td>16</td>
+              <td class="duration" data-value="195118675">0.195</td>
+              <td class="duration" data-value="195118675">0.244</td>
+              <td class="duration" data-value="3121898800">3.121</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.LoginSteps.user_is_successfully_logged_in()</td>
+              <td>14</td>
+              <td class="duration" data-value="67174900">0.067</td>
+              <td class="duration" data-value="67174900">0.081</td>
+              <td class="duration" data-value="940448600">0.940</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.SearchEmployeeSteps.user_clicks_on_search_button()</td>
+              <td>10</td>
+              <td class="duration" data-value="1517490870">1.517</td>
+              <td class="duration" data-value="1517490870">1.991</td>
+              <td class="duration" data-value="15174908700">15.174</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.SearchEmployeeSteps.user_enter_valid_employee_id()</td>
+              <td>7</td>
+              <td class="duration" data-value="127497942">0.127</td>
+              <td class="duration" data-value="127497942">0.154</td>
+              <td class="duration" data-value="892485600">0.892</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.SearchEmployeeSteps.user_enter_valid_employee_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="4225308300">4.225</td>
+              <td class="duration" data-value="4225308300">4.225</td>
+              <td class="duration" data-value="4225308300">4.225</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()</td>
+              <td>6</td>
+              <td class="duration" data-value="299357033">0.299</td>
+              <td class="duration" data-value="299357033">1.491</td>
+              <td class="duration" data-value="1796142200">1.796</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.the_employee_is_terminated()</td>
+              <td>1</td>
+              <td class="duration" data-value="67973500">0.067</td>
+              <td class="duration" data-value="67973500">0.067</td>
+              <td class="duration" data-value="67973500">0.067</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_adds_a_note_in_the_textbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="154584100">0.154</td>
+              <td class="duration" data-value="154584100">0.154</td>
+              <td class="duration" data-value="154584100">0.154</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_clicks_on_confirm_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="9041982900">9.041</td>
+              <td class="duration" data-value="9041982900">9.041</td>
+              <td class="duration" data-value="9041982900">9.041</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_clicks_on_new_displayed_information()</td>
+              <td>1</td>
+              <td class="duration" data-value="2754400600">2.754</td>
+              <td class="duration" data-value="2754400600">2.754</td>
+              <td class="duration" data-value="2754400600">2.754</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_clicks_on_terminate_employment()</td>
+              <td>1</td>
+              <td class="duration" data-value="1113841200">1.113</td>
+              <td class="duration" data-value="1113841200">1.113</td>
+              <td class="duration" data-value="1113841200">1.113</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_enter_valid_terminating_employee_id()</td>
+              <td>1</td>
+              <td class="duration" data-value="5209905200">5.209</td>
+              <td class="duration" data-value="5209905200">5.209</td>
+              <td class="duration" data-value="5209905200">5.209</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_picks_a_date_from_the_calendar()</td>
+              <td>1</td>
+              <td class="duration" data-value="1231455400">1.231</td>
+              <td class="duration" data-value="1231455400">1.231</td>
+              <td class="duration" data-value="1231455400">1.231</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.TerminateSteps.user_selects_a_reason()</td>
+              <td>1</td>
+              <td class="duration" data-value="103643900">0.103</td>
+              <td class="duration" data-value="103643900">0.103</td>
+              <td class="duration" data-value="103643900">0.103</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.job_title()</td>
+              <td>1</td>
+              <td class="duration" data-value="138498600">0.138</td>
+              <td class="duration" data-value="138498600">0.138</td>
+              <td class="duration" data-value="138498600">0.138</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.user_click_on_add_work_experience()</td>
+              <td>1</td>
+              <td class="duration" data-value="93445200">0.093</td>
+              <td class="duration" data-value="93445200">0.093</td>
+              <td class="duration" data-value="93445200">0.093</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.user_clicks_on_qualifications()</td>
+              <td>1</td>
+              <td class="duration" data-value="1283842800">1.283</td>
+              <td class="duration" data-value="1283842800">1.283</td>
+              <td class="duration" data-value="1283842800">1.283</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.user_clicks_on_save()</td>
+              <td>1</td>
+              <td class="duration" data-value="2156812100">2.156</td>
+              <td class="duration" data-value="2156812100">2.156</td>
+              <td class="duration" data-value="2156812100">2.156</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.user_clicks_on_view_employee_information()</td>
+              <td>1</td>
+              <td class="duration" data-value="2734402100">2.734</td>
+              <td class="duration" data-value="2734402100">2.734</td>
+              <td class="duration" data-value="2734402100">2.734</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.user_is_adding_company_name()</td>
+              <td>1</td>
+              <td class="duration" data-value="116035800">0.116</td>
+              <td class="duration" data-value="116035800">0.116</td>
+              <td class="duration" data-value="116035800">0.116</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">steps.WorkExperienceSteps.yyyy_mm_date()</td>
+              <td>1</td>
+              <td class="duration" data-value="170542800">0.170</td>
+              <td class="duration" data-value="170542800">0.170</td>
+              <td class="duration" data-value="170542800">0.170</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>102</td>
+            <td>229</td>
+            <td class="duration">1.410</td>
+            <td class="duration">1:18.810</td>
+            <td class="duration">5:23.087</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

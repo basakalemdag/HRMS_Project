@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 372.155 s <<< FAILURE! - in runners.SmokeRunner
+Adding skills.Adding employee Skills  Time elapsed: 39.983 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Hard Worker
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NLGOL23', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at utils.CommonMethods.selectDropdown(CommonMethods.java:78)
+	at steps.AddSkill2Steps.user_can_add_employee_s_skills(AddSkill2Steps.java:43)
+	at ✽.user can add employee's skills(file:///C:/Users/talha/IdeaProjects/Group12B14/src/test/resources/features/AddSkill2.feature:11)
+

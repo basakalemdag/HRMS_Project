@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.SmokeRunner" time="372.155" tests="20" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\talha\IdeaProjects\Group12B14\target\test-classes;C:\Users\talha\IdeaProjects\Group12B14\target\classes;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\talha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\talha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\talha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\talha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\talha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\talha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\talha\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\talha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\talha\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\talha\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\talha\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\talha\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\talha\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\talha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\talha\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\talha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\talha\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\talha\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\talha\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\talha\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\talha\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\talha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\talha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\talha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\talha\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\talha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\talha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\talha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\talha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\talha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\talha\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\talha\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\talha\.jdks\openjdk-19.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\talha\AppData\Local\Temp\surefire12162700671779922833\surefirebooter-20230103212112779_3.jar C:\Users\talha\AppData\Local\Temp\surefire12162700671779922833 2023-01-03T21-21-12_091-jvmRun1 surefire-20230103212112779_1tmp surefire_0-20230103212112779_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\talha\IdeaProjects\Group12B14\target\test-classes;C:\Users\talha\IdeaProjects\Group12B14\target\classes;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\talha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\talha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\talha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\talha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\talha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\talha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\talha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\talha\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\talha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\talha\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\talha\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\talha\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\talha\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\talha\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\talha\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\talha\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\talha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\talha\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\talha\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\talha\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\talha\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\talha\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\talha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\talha\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\talha\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\talha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\talha\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\talha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\talha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\talha\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\talha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\talha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\talha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\talha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\talha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\talha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\talha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\talha\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\talha\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\talha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\talha\.jdks\openjdk-19.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\talha\IdeaProjects\Group12B14"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\talha\AppData\Local\Temp\surefire12162700671779922833\surefirebooter-20230103212112779_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="talha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\talha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\talha\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\talha\IdeaProjects\Group12B14"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\talha\.jdks\openjdk-19.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\Git\cmd;C:\Maven\apache-maven-3.8.6\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\talha\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="Adding one employee using feature file" classname="Adding the Employee" time="20.527">
+    <system-out><![CDATA[
+@sprint1 @addEmp
+Scenario: Adding one employee using feature file     # src/test/resources/features/AddEmployee.feature:4
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user clicks on Add Employee button             # steps.AddEmployeeSteps.user_clicks_on_add_employee_button()
+  And user enter "Terminate" and "ID" and "G12"      # steps.AddEmployeeSteps.user_enter_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user clicks on save button                     # steps.AddEmployeeSteps.user_clicks_on_save_button()
+Employee added successfully
+  Then employee added successfully                   # steps.AddEmployeeSteps.employee_added_successfully()
+
+    Embedding Adding one employee using feature file [image/png 130769 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 16533
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:21:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding depandents for one employee using feature file" classname="Adding the Employee dependants" time="16.633">
+    <system-out><![CDATA[
+@sprint2 @dependents
+Scenario: Adding depandents for one employee using feature file               # src/test/resources/features/AddEmployeeDependants.feature:3
+  When user enters valid username and valid password                          # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                                             # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                                         # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                                              # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+Test passed
+  Then user is able to see the employee list displayed                        # steps.AddEmployeeDependantsSteps.user_is_able_to_see_the_employee_list_displayed()
+  When user clicks on any enlisted employee                                   # steps.AddEmployeeDependantsSteps.user_clicks_on_any_enlisted_employee()
+welcome true
+  Then user successfully navigates to the empoloyee Personal Details page     # steps.AddEmployeeDependantsSteps.user_successfully_navigates_to_the_empoloyee_personal_details_page()
+  When user clicks on dependents option                                       # steps.AddEmployeeDependantsSteps.user_clicks_on_dependents_option()
+Personal Details true
+  Then user successfully navigates into Assign Dependents page                # steps.AddEmployeeDependantsSteps.user_successfully_navigates_into_assign_dependents_page()
+  When user click on add button                                               # steps.AddEmployeeDependantsSteps.user_click_on_add_button()
+  And user is able to enter data into the name field                          # steps.AddEmployeeDependantsSteps.user_is_able_to_enter_data_into_the_name_field()
+  And user is able to select an option from relationship dropdown             # steps.AddEmployeeDependantsSteps.user_is_able_to_select_an_option_from_relationship_dropdown()
+  And user is able to select day, month and year from the date of birth field # steps.AddEmployeeDependantsSteps.user_is_able_to_select_day_month_and_year_from_the_date_of_birth_field()
+Information is displayed
+JohnButt
+  Then user can save changes by clicking on save button                       # steps.AddEmployeeDependantsSteps.user_can_save_changes_by_clicking_on_save_button()
+
+    Embedding Adding depandents for one employee using feature file [image/png 117561 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 46433
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:21:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding different language details" classname="Adding Languages of employees" time="22.173">
+    <system-out><![CDATA[
+@sprint3 @language
+Scenario: Adding different language details          # src/test/resources/features/AddLanguages.feature:17
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  When user enter valid employee id                  # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  Then user see employee information is displayed    # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+  When user clicks on the employee name              # steps.AddMembershipSteps.user_clicks_on_the_employee_name()
+Personal Details true
+  Then user see the personal details of the employee # steps.AddMembershipSteps.user_see_the_personal_details_of_the_employee()
+  When user clicks on qualification button           # steps.AddLanguageSteps.user_clicks_on_qualification_button()
+  And user clicks on languages add button            # steps.AddLanguageSteps.user_clicks_on_languages_add_button()
+  When user clicks and select language               # steps.AddLanguageSteps.user_clicks_and_select_language()
+  And user clicks and select fluency                 # steps.AddLanguageSteps.user_clicks_and_select_fluency()
+  And user clicks and select competency              # steps.AddLanguageSteps.user_clicks_and_select_competency()
+  And user enters comments                           # steps.AddLanguageSteps.user_enters_comments()
+  And user clicks on language save button            # steps.AddLanguageSteps.user_clicks_on_language_save_button()
+  Then user sees the details of language added       # steps.AddLanguageSteps.user_sees_the_details_of_language_added()
+
+    Embedding Adding different language details [image/png 48985 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 40591
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding different licenses" classname="Adding licences of qualifications" time="25.149">
+    <system-out><![CDATA[
+@sprint3 @license
+Scenario: Adding different licenses                  # src/test/resources/features/AddLicenses.feature:11
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user enters valid ID                           # steps.AddLicensesSteps.user_enters_valid_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+The Employee's name is displayed
+Employee information is displayed
+  Then user sees employee's name is displayed        # steps.AddLicensesSteps.user_sees_employee_s_name_is_displayed()
+  When user clicks on the employee's name            # steps.AddLicensesSteps.user_clicks_on_the_employee_s_name()
+The Employee's personal details are displayed
+It is displayed
+  And user sees the personal details of the employee # steps.AddLicensesSteps.user_sees_the_personal_details_of_the_employee()
+  When user clicks on Qualifications button          # steps.AddLicensesSteps.user_clicks_on_qualifications_button()
+  And user clicks on Add button                      # steps.AddLicensesSteps.user_clicks_on_add_button()
+  And user clicks and selects License type           # steps.AddLicensesSteps.user_clicks_and_selects_license_type()
+  And user enters License Number                     # steps.AddLicensesSteps.user_enters_license_number()
+  And user clicks and selects Issued Date            # steps.AddLicensesSteps.user_clicks_and_selects_issued_date()
+  And user clicks and selects Expiry date            # steps.AddLicensesSteps.user_clicks_and_selects_expiry_date()
+  Then user clicks on License Save button            # steps.AddLicensesSteps.user_clicks_on_License_save_button()
+
+    Embedding Adding different licenses [image/png 50671 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 42756
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:22:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding different memberships" classname="Adding Memberships of employees" time="20.568">
+    <system-out><![CDATA[
+@sprint3 @membership
+Scenario: Adding different memberships               # src/test/resources/features/AddMembership.feature:17
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  When user enter valid employee id                  # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  Then user see employee information is displayed    # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+  When user clicks on the employee name              # steps.AddMembershipSteps.user_clicks_on_the_employee_name()
+Personal Details true
+  Then user see the personal details of the employee # steps.AddMembershipSteps.user_see_the_personal_details_of_the_employee()
+  When user clicks on memberships button             # steps.AddMembershipSteps.user_clicks_on_memberships_button()
+  And user clicks on membership add button           # steps.AddMembershipSteps.user_clicks_on_membership_add_button()
+  And user clicks and select membership type         # steps.AddMembershipSteps.user_clicks_and_select_membership_type()
+  And user clicks on membership save button          # steps.AddMembershipSteps.user_clicks_on_membership_save_button()
+Information is displayed
+Brain Buster
+  Then user sees the details of membership added     # steps.AddMembershipSteps.user_sees_the_details_of_membership_added()
+
+    Embedding Adding different memberships [image/png 121791 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 5962
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:22:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding details of membership" classname="Adding Memberships of employees" time="25.642">
+    <system-out><![CDATA[
+@sprint3 @membership
+Scenario: Adding details of membership               # src/test/resources/features/AddMembership.feature:23
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  When user enter valid employee id                  # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  Then user see employee information is displayed    # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+  When user clicks on the employee name              # steps.AddMembershipSteps.user_clicks_on_the_employee_name()
+Personal Details true
+  Then user see the personal details of the employee # steps.AddMembershipSteps.user_see_the_personal_details_of_the_employee()
+  When user clicks on memberships button             # steps.AddMembershipSteps.user_clicks_on_memberships_button()
+  And user clicks on membership add button           # steps.AddMembershipSteps.user_clicks_on_membership_add_button()
+  When user clicks and select membership type        # steps.AddMembershipSteps.user_clicks_and_select_membership_type()
+  And user clicks and select subscription paid by    # steps.AddMembershipSteps.user_clicks_and_select_subscription_paid_by()
+  And user enters subscription amount                # steps.AddMembershipSteps.user_enters_subscription_amount()
+  And user clicks and select currency                # steps.AddMembershipSteps.user_clicks_and_select_currency()
+  And user selects commence date                     # steps.AddMembershipSteps.user_selects_commence_date()
+  And user selects renewal date                      # steps.AddMembershipSteps.user_selects_renewal_date()
+  And user clicks on membership save button          # steps.AddMembershipSteps.user_clicks_on_membership_save_button()
+Information is displayed
+Brain Buster
+  Then user sees the details of membership added     # steps.AddMembershipSteps.user_sees_the_details_of_membership_added()
+
+    Embedding Adding details of membership [image/png 124045 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 26972
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:23:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Add skills in qualifications" classname="Adding Skills from Admin" time="13.017">
+    <system-out><![CDATA[
+@sprint2 @skill
+Scenario: Add skills in qualifications                          # src/test/resources/features/AddSkill1.feature:7
+  When user enters valid username and valid password            # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                               # steps.LoginSteps.user_clicks_on_login_button()
+  When user click on Admin and select Skill from qualifications # steps.AddSkill1Steps.user_click_on_admin_and_select_skill_from_qualifications()
+  And user clicks on add and enter credentials                  # steps.AddSkill1Steps.user_clicks_on_add_and_enter_credentials(io.cucumber.datatable.DataTable)
+  Then user should be able to add new skills                    # steps.AddSkill1Steps.user_should_be_able_to_add_new_skills()
+
+    Embedding Add skills in qualifications [image/png 75662 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 12150
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:23:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding employee Skills" classname="Adding skills" time="39.983">
+    <error message="Cannot locate element with text: Hard Worker&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-NLGOL23&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Hard Worker
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NLGOL23', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at utils.CommonMethods.selectDropdown(CommonMethods.java:78)
+	at steps.AddSkill2Steps.user_can_add_employee_s_skills(AddSkill2Steps.java:43)
+	at ✽.user can add employee's skills(file:///C:/Users/talha/IdeaProjects/Group12B14/src/test/resources/features/AddSkill2.feature:11)
+]]></error>
+    <system-out><![CDATA[
+@sprint2 @skill
+Scenario: Adding employee Skills                                                      # src/test/resources/features/AddSkill2.feature:7
+  When user enters valid username and valid password                                  # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                                                     # steps.LoginSteps.user_clicks_on_login_button()
+  When user clicks on PIM and search the employee from Employee List                  # steps.AddSkill2Steps.user_clicks_on_pim_and_search_the_employee_from_employee_list()
+  And user click on Searched Employee and select Qualifications                       # steps.AddSkill2Steps.user_click_on_searched_employee_and_select_qualifications()
+Skills Dropdown is displayed? true
+Experience Field is displayed? true
+Comments displayed? true
+  And user should see skills dropdowns, experience textbox and commment box displayed # steps.AddSkill2Steps.user_should_see_skills_dropdowns_experience_textbox_and_commment_box_displayed()
+  Then user can add employee's skills                                                 # steps.AddSkill2Steps.user_can_add_employee_s_skills()
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Hard Worker
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NLGOL23', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at utils.CommonMethods.selectDropdown(CommonMethods.java:78)
+	at steps.AddSkill2Steps.user_can_add_employee_s_skills(AddSkill2Steps.java:43)
+	at ✽.user can add employee's skills(file:///C:/Users/talha/IdeaProjects/Group12B14/src/test/resources/features/AddSkill2.feature:11)
+
+
+    Embedding Adding employee Skills [image/png 127068 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 36338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:23:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding employee&apos;s current job details" classname="Current Job Details" time="27.992">
+    <system-out><![CDATA[
+@sprint2 @currentjob
+Scenario: Adding employee's current job details                 # src/test/resources/features/CurrentJobDetails.feature:4
+  When user enters valid username and valid password            # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                               # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                           # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                                # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user enter valid employee id                              # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                              # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+  And user clicks on displayed information                      # steps.CurrentJobDetailsSteps.user_clicks_on_displayed_information()
+Personal Details true
+  Then user sees employee details                               # steps.CurrentJobDetailsSteps.user_sees_employee_details()
+  When user clicks on Job                                       # steps.CurrentJobDetailsSteps.user_clicks_on_job()
+  And user clicks on Edit button                                # steps.CurrentJobDetailsSteps.user_clicks_on_edit_button()
+  And user selects Job Title                                    # steps.CurrentJobDetailsSteps.user_selects_job_title()
+  And user selects Employment Status                            # steps.CurrentJobDetailsSteps.user_selects_employment_status()
+  And user selects Job Category                                 # steps.CurrentJobDetailsSteps.user_selects_job_category()
+  And user picks Joined Date from calendar                      # steps.CurrentJobDetailsSteps.user_picks_joined_date_from_calendar()
+  And user selects Job Unit                                     # steps.CurrentJobDetailsSteps.user_selects_job_unit()
+  And user selects Location                                     # steps.CurrentJobDetailsSteps.user_selects_location()
+  And user picks contract Start Date from calendar              # steps.CurrentJobDetailsSteps.user_picks_contract_start_date_from_calendar()
+  And user picks contract End Date from calendar                # steps.CurrentJobDetailsSteps.user_picks_contract_end_date_from_calendar()
+  And user uploads file up to 1MB for Contract Details          # steps.CurrentJobDetailsSteps.user_uploads_file_up_to_1mb_for_contract_details()
+  And user clicks on Save button                                # steps.CurrentJobDetailsSteps.user_clicks_on_save_button()
+Employee's Current Job Details updated
+  Then user successfully updated employee's current job details # steps.CurrentJobDetailsSteps.user_successfully_updated_employee_s_current_job_details()
+
+    Embedding Adding employee's current job details [image/png 132708 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 12645
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:24:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Viewing employees under directory" classname="Directory view" time="17.803">
+    <system-out><![CDATA[
+@sprint1 @directory
+Scenario: Viewing employees under directory          # src/test/resources/features/Directory.feature:4
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on Directory option               # steps.DirectorySteps.user_clicks_on_directory_option()
+All employees are present in the page
+  Then user see number of employees displayed        # steps.DirectorySteps.user_see_number_of_employees_displayed()
+
+    Embedding Viewing employees under directory [image/png 83865 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 46948
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Changing Employee contact details" classname="Adding Contact Details" time="17.923">
+    <system-out><![CDATA[
+@sprint2 @contactDetails
+Scenario: Changing Employee contact details                         # src/test/resources/features/EmployeeContacttDetails.feature:14
+  When user enters valid username and valid password                # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                                   # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                               # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                                    # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user enter valid employee id                                  # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                                  # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  When user see employee information is displayed                   # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+  When user clicks on the employee name                             # steps.AddMembershipSteps.user_clicks_on_the_employee_name()
+  When user clicks on contact details                               # steps.EmployeeContactDetailsSteps.user_clicks_on_contact_details()
+  Then user clicks on edit option                                   # steps.EmployeeContactDetailsSteps.user_clicks_on_edit_option()
+  And user enters employee address1 and address2                    # steps.EmployeeContactDetailsSteps.user_enters_employee_address1_and_address2()
+  And users enters city,state,zip and country                       # steps.EmployeeContactDetailsSteps.users_enters_city_state_zip_and_country()
+  And user enters homeNum, mobile, and workNumber                   # steps.EmployeeContactDetailsSteps.user_enters_home_num_mobile_and_work_number()
+  And user enters workEmail and personalEmail                       # steps.EmployeeContactDetailsSteps.user_enters_work_email_and_personal_email()
+  Then user clicks on save button and changed the data successfully # steps.EmployeeContactDetailsSteps.user_clicks_on_save_button_and_changed_the_data_successfully()
+
+    Embedding Changing Employee contact details [image/png 130829 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 7590
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Valid admin login" classname="Login functionality" time="8.705">
+    <system-out><![CDATA[
+@sprint1 @valid
+Scenario: Valid admin login                          # src/test/resources/features/Login.feature:4
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+
+    Embedding Valid admin login [image/png 81936 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 29540
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid login functionality #1" classname="Login functionality" time="6.779">
+    <system-out><![CDATA[
+@sprint1 @invalid
+Scenario Outline: Invalid login functionality                                                    # src/test/resources/features/Login.feature:16
+  When user enters different "admin" and "password1" and verify the "Invalid credentials" for it # steps.LoginSteps.user_enters_different_and_and_verify_the_for_it(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Invalid login functionality [image/png 128068 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 34158
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid login functionality #2" classname="Login functionality" time="5.535">
+    <system-out><![CDATA[
+@sprint1 @invalid
+Scenario Outline: Invalid login functionality                                                          # src/test/resources/features/Login.feature:17
+  When user enters different "admin1234" and "Hum@nhrm123" and verify the "Invalid credentials" for it # steps.LoginSteps.user_enters_different_and_and_verify_the_for_it(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Invalid login functionality [image/png 128068 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 6586
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid login functionality #3" classname="Login functionality" time="4.737">
+    <system-out><![CDATA[
+@sprint1 @invalid
+Scenario Outline: Invalid login functionality                                                      # src/test/resources/features/Login.feature:18
+  When user enters different "" and "Hum@nhrm123" and verify the "Username cannot be empty" for it # steps.LoginSteps.user_enters_different_and_and_verify_the_for_it(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Invalid login functionality [image/png 125631 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 30148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Invalid login functionality #4" classname="Login functionality" time="4.762">
+    <system-out><![CDATA[
+@sprint1 @invalid
+Scenario Outline: Invalid login functionality                                                # src/test/resources/features/Login.feature:19
+  When user enters different "admin" and "" and verify the "Password cannot be empty" for it # steps.LoginSteps.user_enters_different_and_and_verify_the_for_it(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Invalid login functionality [image/png 126403 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 3317
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Search employee by id" classname="Searching an Employee" time="12.41">
+    <system-out><![CDATA[
+@sprint1 @id
+Scenario: Search employee by id                      # src/test/resources/features/SearchEmployee.feature:10
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  When user enter valid employee id                  # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  Then user see employee information is displayed    # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+
+    Embedding Search employee by id [image/png 82895 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 18386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:25:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Search employee by name" classname="Searching an Employee" time="19.84">
+    <system-out><![CDATA[
+@sprint1 @name
+Scenario: Search employee by name                    # src/test/resources/features/SearchEmployee.feature:16
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  When user enter valid employee name                # steps.SearchEmployeeSteps.user_enter_valid_employee_name()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+Information is displayed
+15119075
+  Then user see employee information is displayed    # steps.SearchEmployeeSteps.user_see_employee_information_is_displayed()
+
+    Embedding Search employee by name [image/png 89496 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 37295
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:26:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Terminating an employee" classname="Terminate" time="39.096">
+    <system-out><![CDATA[
+@sprint2 @terminate
+Scenario: Terminating an employee                    # src/test/resources/features/Terminate.feature:4
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user enter valid terminating employee id       # steps.TerminateSteps.user_enter_valid_terminating_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+
+17956050
+Terminate ID
+  And user clicks on new displayed information       # steps.TerminateSteps.user_clicks_on_new_displayed_information()
+Personal Details true
+  Then user sees employee details                    # steps.CurrentJobDetailsSteps.user_sees_employee_details()
+  When user clicks on Job                            # steps.CurrentJobDetailsSteps.user_clicks_on_job()
+  And user clicks on Terminate Employment            # steps.TerminateSteps.user_clicks_on_terminate_employment()
+  And user selects a Reason                          # steps.TerminateSteps.user_selects_a_reason()
+  And user picks a date from the calendar            # steps.TerminateSteps.user_picks_a_date_from_the_calendar()
+  And user adds a note in the textbox                # steps.TerminateSteps.user_adds_a_note_in_the_textbox()
+  And user clicks on Confirm button                  # steps.TerminateSteps.user_clicks_on_confirm_button()
+Employee successfully terminated
+  Then the employee is terminated                    # steps.TerminateSteps.the_employee_is_terminated()
+
+    Embedding Terminating an employee [image/png 134530 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 32032
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:26:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+  <testcase name="Adding Employee Working Experience" classname="Work Experience" time="21.318">
+    <system-out><![CDATA[
+@sprint2 @Experience
+Scenario: Adding Employee Working Experience         # src/test/resources/features/WorkExperience.feature:4
+  When user enters valid username and valid password # steps.LoginSteps.user_enters_valid_username_and_valid_password()
+  And user clicks on login button                    # steps.LoginSteps.user_clicks_on_login_button()
+Welcome Admin
+Test case is passed
+  Then user is successfully logged in                # steps.LoginSteps.user_is_successfully_logged_in()
+  When user clicks on PIM option                     # steps.AddEmployeeSteps.user_clicks_on_pim_option()
+  And user enter valid employee id                   # steps.SearchEmployeeSteps.user_enter_valid_employee_id()
+  And user clicks on search button                   # steps.SearchEmployeeSteps.user_clicks_on_search_button()
+  Then user clicks on View Employee information      # steps.WorkExperienceSteps.user_clicks_on_view_employee_information()
+  When user clicks on Qualifications                 # steps.WorkExperienceSteps.user_clicks_on_qualifications()
+  And user click on Add Work Experience              # steps.WorkExperienceSteps.user_click_on_add_work_experience()
+  And user is adding Company name                    # steps.WorkExperienceSteps.user_is_adding_company_name()
+  And job title                                      # steps.WorkExperienceSteps.job_title()
+  And YYYY-mm-Date                                   # steps.WorkExperienceSteps.yyyy_mm_date()
+Information is displayed
+Syntax School
+  Then user clicks on Save                           # steps.WorkExperienceSteps.user_clicks_on_save()
+
+    Embedding Adding Employee Working Experience [image/png 110937 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 7105
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 03, 2023 9:27:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN Continuable parsing error 5 and column 84
+log4j:WARN Attribute "xmlns:log4j" with value "https://jakarta.apache.org/log4j/" must have a value of "http://jakarta.apache.org/log4j/".
+]]></system-err>
+  </testcase>
+</testsuite>

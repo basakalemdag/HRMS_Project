@@ -1,0 +1,604 @@
+
+2022-12-29 11:21:21,828 INFO  [Log] ***************************************** 
+2022-12-29 11:21:21,829 INFO  [Log] Test case is starting now 
+2022-12-29 11:21:21,829 INFO  [Log] ***************************************** 
+2022-12-29 11:21:29,041 INFO  [Log] ########################################## 
+2022-12-29 11:21:29,041 INFO  [Log] Test case is ended 
+2022-12-29 11:21:29,041 INFO  [Log] ########################################## 
+
+2022-12-29 09:06:30,981 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2022-12-29 09:06:34,952 INFO  [Log] Searching employee by id 
+2022-12-29 09:06:37,958 INFO  [Log] Selected qualification tag in order to add employees 
+2022-12-29 09:06:39,133 INFO  [Log] Checking all the elements are displayed 
+2022-12-29 09:06:39,382 INFO  [Log] Selecting required skill and adding comments 
+2022-12-29 09:16:34,489 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2022-12-29 09:16:38,418 INFO  [Log] Searching employee by id 
+2022-12-29 09:16:41,366 INFO  [Log] Selected qualification tag in order to add employees 
+2022-12-29 09:16:42,356 INFO  [Log] Checking all the elements are displayed 
+2022-12-29 09:16:42,596 INFO  [Log] Selecting required skill and adding comments 
+2022-12-29 09:16:44,211 INFO  [Log] ########################################## 
+2022-12-29 09:16:44,211 INFO  [Log] Employees qualification skills added successfully, end of test 
+2022-12-29 09:16:44,211 INFO  [Log] ########################################## 
+
+2023-01-01 18:14:01,580 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-01 18:14:09,130 INFO  [Log] Searching employee by id 
+2023-01-01 18:14:11,639 INFO  [Log] Selected qualification tag in order to add employees 
+
+2022-12-29 12:01:09,979 INFO  [Log] ***************************************** 
+2022-12-29 12:01:09,979 INFO  [Log] This is adding Contact Details user story 
+2022-12-29 12:01:09,980 INFO  [Log] ***************************************** 
+2022-12-29 12:01:13,833 INFO  [Log] ########################################## 
+2022-12-29 12:01:13,833 INFO  [Log] All employee contact details have been added 
+2022-12-29 12:01:13,833 INFO  [Log] ########################################## 
+
+2023-01-01 18:19:39,685 INFO  [Log] ***************************************** 
+2023-01-01 18:19:39,685 INFO  [Log] This is adding Contact Details user story 
+2023-01-01 18:19:39,685 INFO  [Log] ***************************************** 
+
+2022-12-30 21:31:44,881 INFO  [Log] ***************************************** 
+2022-12-30 21:31:44,882 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:31:44,882 INFO  [Log] ***************************************** 
+2022-12-30 21:33:33,792 INFO  [Log] ***************************************** 
+2022-12-30 21:33:33,792 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:33:33,792 INFO  [Log] ***************************************** 
+2022-12-30 21:35:48,194 INFO  [Log] ***************************************** 
+2022-12-30 21:35:48,195 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:35:48,195 INFO  [Log] ***************************************** 
+2022-12-30 21:37:54,125 INFO  [Log] ***************************************** 
+2022-12-30 21:37:54,126 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:37:54,126 INFO  [Log] ***************************************** 
+2022-12-30 21:42:56,048 INFO  [Log] ***************************************** 
+2022-12-30 21:42:56,048 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:42:56,048 INFO  [Log] ***************************************** 
+2022-12-30 21:46:16,664 INFO  [Log] ***************************************** 
+2022-12-30 21:46:16,665 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:46:16,665 INFO  [Log] ***************************************** 
+2022-12-30 21:48:33,638 INFO  [Log] ***************************************** 
+2022-12-30 21:48:33,638 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:48:33,638 INFO  [Log] ***************************************** 
+2022-12-30 21:50:10,364 INFO  [Log] ***************************************** 
+2022-12-30 21:50:10,364 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:50:10,364 INFO  [Log] ***************************************** 
+2022-12-30 21:51:38,317 INFO  [Log] ***************************************** 
+2022-12-30 21:51:38,317 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:51:38,317 INFO  [Log] ***************************************** 
+2022-12-30 21:51:50,315 INFO  [Log] ########################################## 
+2022-12-30 21:51:50,315 INFO  [Log] Employee's Current Job Details were successfully saved 
+2022-12-30 21:51:50,315 INFO  [Log] ########################################## 
+2022-12-30 21:54:08,046 INFO  [Log] ***************************************** 
+2022-12-30 21:54:08,046 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-30 21:54:08,047 INFO  [Log] ***************************************** 
+2022-12-30 21:54:19,872 INFO  [Log] ########################################## 
+2022-12-30 21:54:19,872 INFO  [Log] Employee's Current Job Details were successfully saved 
+2022-12-30 21:54:19,872 INFO  [Log] ########################################## 
+2022-12-31 00:44:21,847 INFO  [Log] ***************************************** 
+2022-12-31 00:44:21,847 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-31 00:44:21,848 INFO  [Log] ***************************************** 
+2022-12-31 00:44:23,931 INFO  [Log] ***************************************** 
+2022-12-31 00:44:23,931 INFO  [Log] Terminate Employee - Test case started 
+2022-12-31 00:44:23,931 INFO  [Log] ***************************************** 
+2022-12-31 00:44:32,050 INFO  [Log] ########################################## 
+2022-12-31 00:44:32,050 INFO  [Log] Terminate Employee - Test case passed 
+2022-12-31 00:44:32,050 INFO  [Log] ########################################## 
+2022-12-31 01:02:14,171 INFO  [Log] ***************************************** 
+2022-12-31 01:02:14,171 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-31 01:02:14,171 INFO  [Log] ***************************************** 
+2022-12-31 01:02:25,579 INFO  [Log] ########################################## 
+2022-12-31 01:02:25,579 INFO  [Log] Employee's Current Job Details were successfully saved 
+2022-12-31 01:02:25,579 INFO  [Log] ########################################## 
+2022-12-31 01:03:57,740 INFO  [Log] ***************************************** 
+2022-12-31 01:03:57,741 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2022-12-31 01:03:57,741 INFO  [Log] ***************************************** 
+2022-12-31 01:03:59,074 INFO  [Log] ***************************************** 
+2022-12-31 01:03:59,074 INFO  [Log] Terminate Employee - Test case started 
+2022-12-31 01:03:59,074 INFO  [Log] ***************************************** 
+2022-12-31 01:04:06,973 INFO  [Log] ########################################## 
+2022-12-31 01:04:06,974 INFO  [Log] Terminate Employee - Test case passed 
+2022-12-31 01:04:06,974 INFO  [Log] ########################################## 
+
+2023-01-01 18:28:57,326 INFO  [Log] ***************************************** 
+2023-01-01 18:28:57,328 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 18:28:57,328 INFO  [Log] ***************************************** 
+2023-01-01 18:28:59,184 INFO  [Log] ***************************************** 
+2023-01-01 18:28:59,184 INFO  [Log] Terminate Employee - Test case started 
+2023-01-01 18:28:59,184 INFO  [Log] ***************************************** 
+
+2022-12-29 17:31:02,937 INFO  [Log] ***************************************** 
+2022-12-29 17:31:02,937 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 17:31:02,938 INFO  [Log] ***************************************** 
+2022-12-29 17:31:10,516 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 17:55:22,181 INFO  [Log] ***************************************** 
+2022-12-29 17:55:22,181 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 17:55:22,181 INFO  [Log] ***************************************** 
+2022-12-29 17:55:27,974 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 18:06:44,087 INFO  [Log] ***************************************** 
+2022-12-29 18:06:44,087 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 18:06:44,087 INFO  [Log] ***************************************** 
+2022-12-29 18:06:57,838 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 20:54:40,929 INFO  [Log] ***************************************** 
+2022-12-29 20:54:40,929 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 20:54:40,929 INFO  [Log] ***************************************** 
+2022-12-29 20:54:49,746 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 20:58:03,684 INFO  [Log] ***************************************** 
+2022-12-29 20:58:03,685 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 20:58:03,685 INFO  [Log] ***************************************** 
+2022-12-29 20:58:10,512 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 21:05:07,344 INFO  [Log] ***************************************** 
+2022-12-29 21:05:07,345 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 21:05:07,345 INFO  [Log] ***************************************** 
+2022-12-29 21:05:21,222 INFO  [Log] I have successfully saved my desired changes 
+2022-12-29 21:19:58,777 INFO  [Log] ***************************************** 
+2022-12-29 21:19:58,777 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2022-12-29 21:19:58,777 INFO  [Log] ***************************************** 
+2022-12-29 21:20:08,404 INFO  [Log] I have successfully saved my desired changes 
+
+2023-01-01 18:32:20,963 INFO  [Log] ***************************************** 
+2023-01-01 18:32:20,964 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-01 18:32:20,964 INFO  [Log] ***************************************** 
+
+2022-12-29 20:08:01,400 INFO  [Log] ***************************************** 
+2022-12-29 20:08:01,400 INFO  [Log] This is Adding membership user story case 
+2022-12-29 20:08:01,400 INFO  [Log] ***************************************** 
+2022-12-29 20:08:07,986 INFO  [Log] ########################################## 
+2022-12-29 20:08:07,986 INFO  [Log] All membership details have been added. Test case end 
+2022-12-29 20:08:07,986 INFO  [Log] ########################################## 
+2022-12-29 20:08:35,823 INFO  [Log] ***************************************** 
+2022-12-29 20:08:35,823 INFO  [Log] This is Adding membership user story case 
+2022-12-29 20:08:35,823 INFO  [Log] ***************************************** 
+2022-12-29 20:08:54,918 INFO  [Log] ########################################## 
+2022-12-29 20:08:54,918 INFO  [Log] All membership details have been added. Test case end 
+2022-12-29 20:08:54,918 INFO  [Log] ########################################## 
+2023-01-01 19:08:41,680 INFO  [Log] ***************************************** 
+2023-01-01 19:08:41,680 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:08:41,681 INFO  [Log] ***************************************** 
+2023-01-01 19:25:18,224 INFO  [Log] ***************************************** 
+2023-01-01 19:25:18,224 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:25:18,224 INFO  [Log] ***************************************** 
+2023-01-01 19:28:21,940 INFO  [Log] ***************************************** 
+2023-01-01 19:28:21,940 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:28:21,940 INFO  [Log] ***************************************** 
+2023-01-01 19:30:20,550 INFO  [Log] ***************************************** 
+2023-01-01 19:30:20,550 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:30:20,550 INFO  [Log] ***************************************** 
+2023-01-01 19:30:22,646 INFO  [Log] ***************************************** 
+2023-01-01 19:30:22,646 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 19:30:22,646 INFO  [Log] ***************************************** 
+2023-01-01 19:30:27,628 INFO  [Log] ########################################## 
+2023-01-01 19:30:27,629 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 19:30:27,629 INFO  [Log] ########################################## 
+
+2023-01-01 19:38:18,401 INFO  [Log] ***************************************** 
+2023-01-01 19:38:18,401 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:38:18,401 INFO  [Log] ***************************************** 
+2023-01-01 19:38:22,715 INFO  [Log] ***************************************** 
+2023-01-01 19:38:22,716 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 19:38:22,716 INFO  [Log] ***************************************** 
+2023-01-01 19:38:29,258 INFO  [Log] ########################################## 
+2023-01-01 19:38:29,258 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 19:38:29,258 INFO  [Log] ########################################## 
+2023-01-01 19:41:32,271 INFO  [Log] ***************************************** 
+2023-01-01 19:41:32,272 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:41:32,272 INFO  [Log] ***************************************** 
+2023-01-01 19:41:34,760 INFO  [Log] ***************************************** 
+2023-01-01 19:41:34,760 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 19:41:34,760 INFO  [Log] ***************************************** 
+2023-01-01 19:41:40,895 INFO  [Log] ########################################## 
+2023-01-01 19:41:40,895 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 19:41:40,895 INFO  [Log] ########################################## 
+2023-01-01 19:42:24,593 INFO  [Log] ***************************************** 
+2023-01-01 19:42:24,593 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:42:24,593 INFO  [Log] ***************************************** 
+2023-01-01 19:42:27,466 INFO  [Log] ***************************************** 
+2023-01-01 19:42:27,466 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 19:42:27,467 INFO  [Log] ***************************************** 
+2023-01-01 19:42:31,543 INFO  [Log] ########################################## 
+2023-01-01 19:42:31,543 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 19:42:31,543 INFO  [Log] ########################################## 
+2023-01-01 19:43:47,566 INFO  [Log] ***************************************** 
+2023-01-01 19:43:47,566 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-01 19:43:47,566 INFO  [Log] ***************************************** 
+2023-01-01 19:43:53,430 INFO  [Log] I have successfully saved my desired changes 
+2023-01-01 19:44:07,914 INFO  [Log] ***************************************** 
+2023-01-01 19:44:07,915 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:44:07,915 INFO  [Log] ***************************************** 
+2023-01-01 19:44:11,162 INFO  [Log] ***************************************** 
+2023-01-01 19:44:11,162 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 19:44:11,162 INFO  [Log] ***************************************** 
+2023-01-01 19:44:17,182 INFO  [Log] ########################################## 
+2023-01-01 19:44:17,182 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 19:44:17,182 INFO  [Log] ########################################## 
+2023-01-01 19:44:29,199 INFO  [Log] ***************************************** 
+2023-01-01 19:44:29,199 INFO  [Log] Test case is starting now 
+2023-01-01 19:44:29,199 INFO  [Log] ***************************************** 
+2023-01-01 19:44:57,455 INFO  [Log] ***************************************** 
+2023-01-01 19:44:57,455 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:44:57,456 INFO  [Log] ***************************************** 
+2023-01-01 19:45:09,136 INFO  [Log] ########################################## 
+2023-01-01 19:45:09,136 INFO  [Log] All membership details have been added. Test case end 
+2023-01-01 19:45:09,137 INFO  [Log] ########################################## 
+2023-01-01 19:45:24,457 INFO  [Log] ***************************************** 
+2023-01-01 19:45:24,458 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:45:24,458 INFO  [Log] ***************************************** 
+2023-01-01 19:45:36,609 INFO  [Log] ########################################## 
+2023-01-01 19:45:36,610 INFO  [Log] All membership details have been added. Test case end 
+2023-01-01 19:45:36,610 INFO  [Log] ########################################## 
+2023-01-01 19:45:54,818 INFO  [Log] ***************************************** 
+2023-01-01 19:45:54,818 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 19:45:54,818 INFO  [Log] ***************************************** 
+2023-01-01 19:46:07,763 INFO  [Log] ########################################## 
+2023-01-01 19:46:07,763 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-01 19:46:07,763 INFO  [Log] ########################################## 
+2023-01-01 19:46:50,397 INFO  [Log] ***************************************** 
+2023-01-01 19:46:50,397 INFO  [Log] This is Adding membership user story case 
+2023-01-01 19:46:50,397 INFO  [Log] ***************************************** 
+2023-01-01 19:46:52,541 INFO  [Log] ***************************************** 
+2023-01-01 19:46:52,541 INFO  [Log] This is adding Contact Details user story 
+2023-01-01 19:46:52,541 INFO  [Log] ***************************************** 
+2023-01-01 19:46:56,971 INFO  [Log] ########################################## 
+2023-01-01 19:46:56,971 INFO  [Log] All employee contact details have been added 
+2023-01-01 19:46:56,971 INFO  [Log] ########################################## 
+2023-01-01 19:47:18,316 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-01 19:47:24,291 INFO  [Log] Searching employee by id 
+2023-01-01 19:47:28,350 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-01 19:47:30,631 INFO  [Log] Checking all the elements are displayed 
+2023-01-01 19:47:30,947 INFO  [Log] Selecting required skill and adding comments 
+2023-01-01 19:47:33,680 INFO  [Log] ########################################## 
+2023-01-01 19:47:33,680 INFO  [Log] Employees qualification skills added successfully, end of test 
+2023-01-01 19:47:33,680 INFO  [Log] ########################################## 
+2023-01-01 19:48:48,578 INFO  [Log] ***************************************** 
+2023-01-01 19:48:48,581 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 19:48:48,581 INFO  [Log] ***************************************** 
+2023-01-01 19:48:50,705 INFO  [Log] ***************************************** 
+2023-01-01 19:48:50,706 INFO  [Log] Terminate Employee - Test case started 
+2023-01-01 19:48:50,706 INFO  [Log] ***************************************** 
+2023-01-01 19:48:57,725 INFO  [Log] ########################################## 
+2023-01-01 19:48:57,725 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-01 19:48:57,725 INFO  [Log] ########################################## 
+2023-01-01 20:05:13,427 INFO  [Log] ***************************************** 
+2023-01-01 20:05:13,430 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 20:05:13,430 INFO  [Log] ***************************************** 
+2023-01-01 20:05:25,671 INFO  [Log] ########################################## 
+2023-01-01 20:05:25,671 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-01 20:05:25,671 INFO  [Log] ########################################## 
+2023-01-01 20:05:50,451 INFO  [Log] ***************************************** 
+2023-01-01 20:05:50,451 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 20:05:50,451 INFO  [Log] ***************************************** 
+2023-01-01 20:05:52,384 INFO  [Log] ***************************************** 
+2023-01-01 20:05:52,384 INFO  [Log] Terminate Employee - Test case started 
+2023-01-01 20:05:52,384 INFO  [Log] ***************************************** 
+2023-01-01 20:06:05,000 INFO  [Log] ########################################## 
+2023-01-01 20:06:05,001 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-01 20:06:05,001 INFO  [Log] ########################################## 
+2023-01-01 21:43:11,784 INFO  [Log] ***************************************** 
+2023-01-01 21:43:11,784 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 21:43:11,784 INFO  [Log] ***************************************** 
+2023-01-01 21:43:25,400 INFO  [Log] ***************************************** 
+2023-01-01 21:43:25,400 INFO  [Log] Terminate Employee - Test case started 
+2023-01-01 21:43:25,400 INFO  [Log] ***************************************** 
+2023-01-01 21:43:39,947 INFO  [Log] ########################################## 
+2023-01-01 21:43:39,947 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-01 21:43:39,947 INFO  [Log] ########################################## 
+2023-01-01 21:52:26,129 INFO  [Log] ***************************************** 
+2023-01-01 21:52:26,129 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-01 21:52:26,129 INFO  [Log] ***************************************** 
+2023-01-01 21:52:33,210 INFO  [Log] I have successfully saved my desired changes 
+2023-01-01 21:52:45,866 INFO  [Log] ***************************************** 
+2023-01-01 21:52:45,866 INFO  [Log] This is Adding membership user story case 
+2023-01-01 21:52:45,866 INFO  [Log] ***************************************** 
+2023-01-01 21:52:48,306 INFO  [Log] ***************************************** 
+2023-01-01 21:52:48,307 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 21:52:48,307 INFO  [Log] ***************************************** 
+2023-01-01 21:52:52,529 INFO  [Log] ########################################## 
+2023-01-01 21:52:52,529 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 21:52:52,529 INFO  [Log] ########################################## 
+2023-01-01 21:53:04,287 INFO  [Log] ***************************************** 
+2023-01-01 21:53:04,288 INFO  [Log] Test case is starting now 
+2023-01-01 21:53:04,288 INFO  [Log] ***************************************** 
+2023-01-01 21:53:14,265 INFO  [Log] ########################################## 
+2023-01-01 21:53:14,265 INFO  [Log] Test case is ended 
+2023-01-01 21:53:14,265 INFO  [Log] ########################################## 
+2023-01-01 21:53:27,925 INFO  [Log] ***************************************** 
+2023-01-01 21:53:27,925 INFO  [Log] This is Adding membership user story case 
+2023-01-01 21:53:27,925 INFO  [Log] ***************************************** 
+2023-01-01 21:53:34,969 INFO  [Log] ########################################## 
+2023-01-01 21:53:34,969 INFO  [Log] All membership details have been added. Test case end 
+2023-01-01 21:53:34,969 INFO  [Log] ########################################## 
+2023-01-01 21:53:47,080 INFO  [Log] ***************************************** 
+2023-01-01 21:53:47,081 INFO  [Log] This is Adding membership user story case 
+2023-01-01 21:53:47,081 INFO  [Log] ***************************************** 
+2023-01-01 21:53:55,858 INFO  [Log] ########################################## 
+2023-01-01 21:53:55,858 INFO  [Log] All membership details have been added. Test case end 
+2023-01-01 21:53:55,858 INFO  [Log] ########################################## 
+2023-01-01 21:54:12,205 INFO  [Log] ***************************************** 
+2023-01-01 21:54:12,205 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 21:54:12,205 INFO  [Log] ***************************************** 
+2023-01-01 21:54:23,728 INFO  [Log] ########################################## 
+2023-01-01 21:54:23,729 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-01 21:54:23,729 INFO  [Log] ########################################## 
+2023-01-01 21:55:06,087 INFO  [Log] ***************************************** 
+2023-01-01 21:55:06,087 INFO  [Log] This is Adding membership user story case 
+2023-01-01 21:55:06,087 INFO  [Log] ***************************************** 
+2023-01-01 21:55:08,268 INFO  [Log] ***************************************** 
+2023-01-01 21:55:08,268 INFO  [Log] This is adding Contact Details user story 
+2023-01-01 21:55:08,268 INFO  [Log] ***************************************** 
+2023-01-01 21:55:13,457 INFO  [Log] ########################################## 
+2023-01-01 21:55:13,457 INFO  [Log] All employee contact details have been added 
+2023-01-01 21:55:13,457 INFO  [Log] ########################################## 
+2023-01-01 21:55:35,234 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-01 21:55:40,807 INFO  [Log] Searching employee by id 
+2023-01-01 21:55:45,256 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-01 21:55:47,006 INFO  [Log] Checking all the elements are displayed 
+2023-01-01 21:55:47,226 INFO  [Log] Selecting required skill and adding comments 
+2023-01-01 21:55:49,448 INFO  [Log] ########################################## 
+2023-01-01 21:55:49,448 INFO  [Log] Employees qualification skills added successfully, end of test 
+2023-01-01 21:55:49,448 INFO  [Log] ########################################## 
+2023-01-01 21:57:18,132 INFO  [Log] ***************************************** 
+2023-01-01 21:57:18,133 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-01 21:57:18,133 INFO  [Log] ***************************************** 
+2023-01-01 21:57:20,049 INFO  [Log] ***************************************** 
+2023-01-01 21:57:20,050 INFO  [Log] Terminate Employee - Test case started 
+2023-01-01 21:57:20,050 INFO  [Log] ***************************************** 
+2023-01-01 21:57:34,782 INFO  [Log] ########################################## 
+2023-01-01 21:57:34,783 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-01 21:57:34,783 INFO  [Log] ########################################## 
+2023-01-01 23:59:33,774 INFO  [Log] ***************************************** 
+2023-01-01 23:59:33,774 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-01 23:59:33,774 INFO  [Log] ***************************************** 
+2023-01-01 23:59:39,750 INFO  [Log] I have successfully saved my desired changes 
+2023-01-01 23:59:51,019 INFO  [Log] ***************************************** 
+2023-01-01 23:59:51,019 INFO  [Log] This is Adding membership user story case 
+2023-01-01 23:59:51,019 INFO  [Log] ***************************************** 
+2023-01-01 23:59:53,184 INFO  [Log] ***************************************** 
+2023-01-01 23:59:53,184 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-01 23:59:53,184 INFO  [Log] ***************************************** 
+2023-01-01 23:59:57,118 INFO  [Log] ########################################## 
+2023-01-01 23:59:57,118 INFO  [Log] All language details have been added. Test case end 
+2023-01-01 23:59:57,118 INFO  [Log] ########################################## 
+2023-01-02 00:00:06,781 INFO  [Log] ***************************************** 
+2023-01-02 00:00:06,781 INFO  [Log] Test case is starting now 
+2023-01-02 00:00:06,781 INFO  [Log] ***************************************** 
+2023-01-02 00:00:34,653 INFO  [Log] ***************************************** 
+2023-01-02 00:00:34,653 INFO  [Log] This is Adding membership user story case 
+2023-01-02 00:00:34,653 INFO  [Log] ***************************************** 
+2023-01-02 00:00:40,555 INFO  [Log] ########################################## 
+2023-01-02 00:00:40,555 INFO  [Log] All membership details have been added. Test case end 
+2023-01-02 00:00:40,555 INFO  [Log] ########################################## 
+2023-01-02 00:00:53,674 INFO  [Log] ***************************************** 
+2023-01-02 00:00:53,674 INFO  [Log] This is Adding membership user story case 
+2023-01-02 00:00:53,674 INFO  [Log] ***************************************** 
+2023-01-02 00:01:03,002 INFO  [Log] ########################################## 
+2023-01-02 00:01:03,003 INFO  [Log] All membership details have been added. Test case end 
+2023-01-02 00:01:03,003 INFO  [Log] ########################################## 
+2023-01-02 00:01:19,023 INFO  [Log] ***************************************** 
+2023-01-02 00:01:19,023 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-02 00:01:19,023 INFO  [Log] ***************************************** 
+2023-01-02 00:01:29,930 INFO  [Log] ########################################## 
+2023-01-02 00:01:29,930 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-02 00:01:29,930 INFO  [Log] ########################################## 
+2023-01-02 00:02:05,777 INFO  [Log] ***************************************** 
+2023-01-02 00:02:05,777 INFO  [Log] This is Adding membership user story case 
+2023-01-02 00:02:05,777 INFO  [Log] ***************************************** 
+2023-01-02 00:02:07,872 INFO  [Log] ***************************************** 
+2023-01-02 00:02:07,872 INFO  [Log] This is adding Contact Details user story 
+2023-01-02 00:02:07,872 INFO  [Log] ***************************************** 
+2023-01-02 00:02:12,362 INFO  [Log] ########################################## 
+2023-01-02 00:02:12,362 INFO  [Log] All employee contact details have been added 
+2023-01-02 00:02:12,362 INFO  [Log] ########################################## 
+2023-01-02 00:02:31,113 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-02 00:02:35,882 INFO  [Log] Searching employee by id 
+2023-01-02 00:02:39,762 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-02 00:02:41,569 INFO  [Log] Checking all the elements are displayed 
+2023-01-02 00:02:41,740 INFO  [Log] Selecting required skill and adding comments 
+2023-01-02 00:04:30,696 INFO  [Log] ***************************************** 
+2023-01-02 00:04:30,700 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-02 00:04:30,700 INFO  [Log] ***************************************** 
+2023-01-02 00:04:32,595 INFO  [Log] ***************************************** 
+2023-01-02 00:04:32,595 INFO  [Log] Terminate Employee - Test case started 
+2023-01-02 00:04:32,595 INFO  [Log] ***************************************** 
+2023-01-02 00:04:45,680 INFO  [Log] ########################################## 
+2023-01-02 00:04:45,680 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-02 00:04:45,680 INFO  [Log] ########################################## 
+2023-01-02 00:07:56,292 INFO  [Log] ***************************************** 
+2023-01-02 00:07:56,292 INFO  [Log] Test case is starting now 
+2023-01-02 00:07:56,293 INFO  [Log] ***************************************** 
+2023-01-02 00:08:05,986 INFO  [Log] ########################################## 
+2023-01-02 00:08:05,987 INFO  [Log] Test case is ended 
+2023-01-02 00:08:05,987 INFO  [Log] ########################################## 
+2023-01-02 16:34:40,817 INFO  [Log] ***************************************** 
+2023-01-02 16:34:40,818 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-02 16:34:40,818 INFO  [Log] ***************************************** 
+2023-01-02 16:34:46,765 INFO  [Log] I have successfully saved my desired changes 
+2023-01-02 16:35:00,198 INFO  [Log] ***************************************** 
+2023-01-02 16:35:00,198 INFO  [Log] This is Adding membership user story case 
+2023-01-02 16:35:00,198 INFO  [Log] ***************************************** 
+2023-01-02 16:35:02,403 INFO  [Log] ***************************************** 
+2023-01-02 16:35:02,403 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-02 16:35:02,403 INFO  [Log] ***************************************** 
+2023-01-02 16:35:06,684 INFO  [Log] ########################################## 
+2023-01-02 16:35:06,684 INFO  [Log] All language details have been added. Test case end 
+2023-01-02 16:35:06,684 INFO  [Log] ########################################## 
+2023-01-02 16:35:20,873 INFO  [Log] ***************************************** 
+2023-01-02 16:35:20,873 INFO  [Log] Test case is starting now 
+2023-01-02 16:35:20,873 INFO  [Log] ***************************************** 
+2023-01-02 16:35:30,078 INFO  [Log] ########################################## 
+2023-01-02 16:35:30,078 INFO  [Log] Test case is ended 
+2023-01-02 16:35:30,079 INFO  [Log] ########################################## 
+2023-01-02 16:35:41,003 INFO  [Log] ***************************************** 
+2023-01-02 16:35:41,004 INFO  [Log] This is Adding membership user story case 
+2023-01-02 16:35:41,004 INFO  [Log] ***************************************** 
+2023-01-02 16:35:47,497 INFO  [Log] ########################################## 
+2023-01-02 16:35:47,498 INFO  [Log] All membership details have been added. Test case end 
+2023-01-02 16:35:47,498 INFO  [Log] ########################################## 
+2023-01-02 16:35:58,632 INFO  [Log] ***************************************** 
+2023-01-02 16:35:58,632 INFO  [Log] This is Adding membership user story case 
+2023-01-02 16:35:58,632 INFO  [Log] ***************************************** 
+2023-01-02 16:36:06,838 INFO  [Log] ########################################## 
+2023-01-02 16:36:06,838 INFO  [Log] All membership details have been added. Test case end 
+2023-01-02 16:36:06,838 INFO  [Log] ########################################## 
+2023-01-02 16:36:24,094 INFO  [Log] ***************************************** 
+2023-01-02 16:36:24,094 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-02 16:36:24,094 INFO  [Log] ***************************************** 
+2023-01-02 16:36:33,676 INFO  [Log] ########################################## 
+2023-01-02 16:36:33,676 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-02 16:36:33,676 INFO  [Log] ########################################## 
+2023-01-02 16:37:06,839 INFO  [Log] ***************************************** 
+2023-01-02 16:37:06,839 INFO  [Log] This is Adding membership user story case 
+2023-01-02 16:37:06,839 INFO  [Log] ***************************************** 
+2023-01-02 16:37:09,003 INFO  [Log] ***************************************** 
+2023-01-02 16:37:09,003 INFO  [Log] This is adding Contact Details user story 
+2023-01-02 16:37:09,003 INFO  [Log] ***************************************** 
+2023-01-02 16:37:14,666 INFO  [Log] ########################################## 
+2023-01-02 16:37:14,666 INFO  [Log] All employee contact details have been added 
+2023-01-02 16:37:14,666 INFO  [Log] ########################################## 
+2023-01-02 16:37:35,642 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-02 16:37:41,762 INFO  [Log] Searching employee by id 
+2023-01-02 16:37:47,173 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-02 16:37:49,020 INFO  [Log] Checking all the elements are displayed 
+2023-01-02 16:37:49,205 INFO  [Log] Selecting required skill and adding comments 
+2023-01-02 16:37:51,369 INFO  [Log] ########################################## 
+2023-01-02 16:37:51,369 INFO  [Log] Employees qualification skills added successfully, end of test 
+2023-01-02 16:37:51,369 INFO  [Log] ########################################## 
+2023-01-02 16:39:11,065 INFO  [Log] ***************************************** 
+2023-01-02 16:39:11,065 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-02 16:39:11,065 INFO  [Log] ***************************************** 
+2023-01-02 16:39:13,081 INFO  [Log] ***************************************** 
+2023-01-02 16:39:13,081 INFO  [Log] Terminate Employee - Test case started 
+2023-01-02 16:39:13,081 INFO  [Log] ***************************************** 
+2023-01-02 16:39:24,158 INFO  [Log] ########################################## 
+2023-01-02 16:39:24,158 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-02 16:39:24,158 INFO  [Log] ########################################## 
+2023-01-03 19:15:42,979 INFO  [Log] ***************************************** 
+2023-01-03 19:15:42,980 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-03 19:15:42,980 INFO  [Log] ***************************************** 
+2023-01-03 19:15:50,183 INFO  [Log] I have successfully saved my desired changes 
+2023-01-03 19:18:22,280 INFO  [Log] ***************************************** 
+2023-01-03 19:18:22,280 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-03 19:18:22,280 INFO  [Log] ***************************************** 
+2023-01-03 19:18:28,656 INFO  [Log] I have successfully saved my desired changes 
+2023-01-03 19:18:41,012 INFO  [Log] ***************************************** 
+2023-01-03 19:18:41,012 INFO  [Log] This is Adding membership user story case 
+2023-01-03 19:18:41,012 INFO  [Log] ***************************************** 
+2023-01-03 19:18:43,548 INFO  [Log] ***************************************** 
+2023-01-03 19:18:43,548 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-03 19:18:43,548 INFO  [Log] ***************************************** 
+2023-01-03 19:18:49,606 INFO  [Log] ########################################## 
+2023-01-03 19:18:49,606 INFO  [Log] All language details have been added. Test case end 
+2023-01-03 19:18:49,606 INFO  [Log] ########################################## 
+2023-01-03 19:18:59,331 INFO  [Log] ***************************************** 
+2023-01-03 19:18:59,331 INFO  [Log] Test case is starting now 
+2023-01-03 19:18:59,331 INFO  [Log] ***************************************** 
+2023-01-03 19:19:08,436 INFO  [Log] ########################################## 
+2023-01-03 19:19:08,437 INFO  [Log] Test case is ended 
+2023-01-03 19:19:08,437 INFO  [Log] ########################################## 
+2023-01-03 19:19:21,336 INFO  [Log] ***************************************** 
+2023-01-03 19:19:21,336 INFO  [Log] This is Adding membership user story case 
+2023-01-03 19:19:21,336 INFO  [Log] ***************************************** 
+2023-01-03 19:19:28,146 INFO  [Log] ########################################## 
+2023-01-03 19:19:28,146 INFO  [Log] All membership details have been added. Test case end 
+2023-01-03 19:19:28,146 INFO  [Log] ########################################## 
+2023-01-03 19:19:42,534 INFO  [Log] ***************************************** 
+2023-01-03 19:19:42,534 INFO  [Log] This is Adding membership user story case 
+2023-01-03 19:19:42,534 INFO  [Log] ***************************************** 
+2023-01-03 19:19:50,962 INFO  [Log] ########################################## 
+2023-01-03 19:19:50,962 INFO  [Log] All membership details have been added. Test case end 
+2023-01-03 19:19:50,962 INFO  [Log] ########################################## 
+2023-01-03 19:20:12,741 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-03 19:20:18,951 INFO  [Log] Searching employee by id 
+2023-01-03 19:20:23,435 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-03 19:20:24,794 INFO  [Log] Checking all the elements are displayed 
+2023-01-03 19:20:24,987 INFO  [Log] Selecting required skill and adding comments 
+2023-01-03 19:20:27,581 INFO  [Log] ########################################## 
+2023-01-03 19:20:27,582 INFO  [Log] Employees qualification skills added successfully, end of test 
+2023-01-03 19:20:27,582 INFO  [Log] ########################################## 
+2023-01-03 19:20:42,389 INFO  [Log] ***************************************** 
+2023-01-03 19:20:42,389 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-03 19:20:42,389 INFO  [Log] ***************************************** 
+2023-01-03 19:20:52,304 INFO  [Log] ########################################## 
+2023-01-03 19:20:52,304 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-03 19:20:52,305 INFO  [Log] ########################################## 
+2023-01-03 19:21:25,002 INFO  [Log] ***************************************** 
+2023-01-03 19:21:25,002 INFO  [Log] This is Adding membership user story case 
+2023-01-03 19:21:25,002 INFO  [Log] ***************************************** 
+2023-01-03 19:21:27,570 INFO  [Log] ***************************************** 
+2023-01-03 19:21:27,570 INFO  [Log] This is adding Contact Details user story 
+2023-01-03 19:21:27,570 INFO  [Log] ***************************************** 
+2023-01-03 19:21:32,169 INFO  [Log] ########################################## 
+2023-01-03 19:21:32,170 INFO  [Log] All employee contact details have been added 
+2023-01-03 19:21:32,170 INFO  [Log] ########################################## 
+2023-01-03 19:22:47,308 INFO  [Log] ***************************************** 
+2023-01-03 19:22:47,308 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-03 19:22:47,308 INFO  [Log] ***************************************** 
+2023-01-03 19:22:49,191 INFO  [Log] ***************************************** 
+2023-01-03 19:22:49,191 INFO  [Log] Terminate Employee - Test case started 
+2023-01-03 19:22:49,191 INFO  [Log] ***************************************** 
+2023-01-03 19:23:00,905 INFO  [Log] ########################################## 
+2023-01-03 19:23:00,905 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-03 19:23:00,905 INFO  [Log] ########################################## 
+2023-01-03 21:21:45,150 INFO  [Log] ***************************************** 
+2023-01-03 21:21:45,150 INFO  [Log] I have logged into the HRMS as execution of my codes 
+2023-01-03 21:21:45,151 INFO  [Log] ***************************************** 
+2023-01-03 21:21:51,133 INFO  [Log] I have successfully saved my desired changes 
+2023-01-03 21:22:05,154 INFO  [Log] ***************************************** 
+2023-01-03 21:22:05,154 INFO  [Log] This is Adding membership user story case 
+2023-01-03 21:22:05,154 INFO  [Log] ***************************************** 
+2023-01-03 21:22:07,320 INFO  [Log] ***************************************** 
+2023-01-03 21:22:07,320 INFO  [Log] Test case starts. Adding Language user story 
+2023-01-03 21:22:07,320 INFO  [Log] ***************************************** 
+2023-01-03 21:22:13,463 INFO  [Log] ########################################## 
+2023-01-03 21:22:13,463 INFO  [Log] All language details have been added. Test case end 
+2023-01-03 21:22:13,463 INFO  [Log] ########################################## 
+2023-01-03 21:22:28,267 INFO  [Log] ***************************************** 
+2023-01-03 21:22:28,267 INFO  [Log] Test case is starting now 
+2023-01-03 21:22:28,267 INFO  [Log] ***************************************** 
+2023-01-03 21:22:38,590 INFO  [Log] ########################################## 
+2023-01-03 21:22:38,590 INFO  [Log] Test case is ended 
+2023-01-03 21:22:38,590 INFO  [Log] ########################################## 
+2023-01-03 21:22:52,156 INFO  [Log] ***************************************** 
+2023-01-03 21:22:52,156 INFO  [Log] This is Adding membership user story case 
+2023-01-03 21:22:52,156 INFO  [Log] ***************************************** 
+2023-01-03 21:22:59,150 INFO  [Log] ########################################## 
+2023-01-03 21:22:59,150 INFO  [Log] All membership details have been added. Test case end 
+2023-01-03 21:22:59,150 INFO  [Log] ########################################## 
+2023-01-03 21:23:16,395 INFO  [Log] ***************************************** 
+2023-01-03 21:23:16,395 INFO  [Log] This is Adding membership user story case 
+2023-01-03 21:23:16,395 INFO  [Log] ***************************************** 
+2023-01-03 21:23:24,862 INFO  [Log] ########################################## 
+2023-01-03 21:23:24,862 INFO  [Log] All membership details have been added. Test case end 
+2023-01-03 21:23:24,862 INFO  [Log] ########################################## 
+2023-01-03 21:23:45,546 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-03 21:23:50,894 INFO  [Log] Searching employee by id 
+2023-01-03 21:23:55,138 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-03 21:23:57,010 INFO  [Log] Checking all the elements are displayed 
+2023-01-03 21:23:57,220 INFO  [Log] Selecting required skill and adding comments 
+2023-01-03 21:24:34,401 INFO  [Log] ***************************************** 
+2023-01-03 21:24:34,401 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-03 21:24:34,401 INFO  [Log] ***************************************** 
+2023-01-03 21:24:43,806 INFO  [Log] ########################################## 
+2023-01-03 21:24:43,806 INFO  [Log] Employee's Current Job Details were successfully saved 
+2023-01-03 21:24:43,806 INFO  [Log] ########################################## 
+2023-01-03 21:25:15,057 INFO  [Log] ***************************************** 
+2023-01-03 21:25:15,057 INFO  [Log] This is Adding membership user story case 
+2023-01-03 21:25:15,057 INFO  [Log] ***************************************** 
+2023-01-03 21:25:17,217 INFO  [Log] ***************************************** 
+2023-01-03 21:25:17,217 INFO  [Log] This is adding Contact Details user story 
+2023-01-03 21:25:17,217 INFO  [Log] ***************************************** 
+2023-01-03 21:25:21,461 INFO  [Log] ########################################## 
+2023-01-03 21:25:21,461 INFO  [Log] All employee contact details have been added 
+2023-01-03 21:25:21,461 INFO  [Log] ########################################## 
+2023-01-03 21:26:47,876 INFO  [Log] ***************************************** 
+2023-01-03 21:26:47,877 INFO  [Log] Adding Employee's Current Job Details - Test case started 
+2023-01-03 21:26:47,877 INFO  [Log] ***************************************** 
+2023-01-03 21:26:49,942 INFO  [Log] ***************************************** 
+2023-01-03 21:26:49,942 INFO  [Log] Terminate Employee - Test case started 
+2023-01-03 21:26:49,942 INFO  [Log] ***************************************** 
+2023-01-03 21:27:03,367 INFO  [Log] ########################################## 
+2023-01-03 21:27:03,367 INFO  [Log] Terminate Employee - Test case passed 
+2023-01-03 21:27:03,367 INFO  [Log] ########################################## 
+2023-01-03 21:28:53,875 INFO  [Log] Navigating to Employee List and searching for employee to add skills 
+2023-01-03 21:28:59,026 INFO  [Log] Searching employee by id 
+2023-01-03 21:29:03,461 INFO  [Log] Selected qualification tag in order to add employees 
+2023-01-03 21:29:05,500 INFO  [Log] Checking all the elements are displayed 
+2023-01-03 21:29:05,687 INFO  [Log] Selecting required skill and adding comments 
+2023-01-03 21:29:08,195 INFO  [Log] ########################################## 
+2023-01-03 21:29:08,195 INFO  [Log] Employees qualification skills added successfully, end of test 
+2023-01-03 21:29:08,195 INFO  [Log] ########################################## 
